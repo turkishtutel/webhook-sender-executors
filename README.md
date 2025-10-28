@@ -37,3 +37,9 @@ api:Send(anotherMessage)
 ---
 
 This setup allows you to send messages effortlessly without rewriting the HTTP request logic every time. Just load the library, create a webhook instance, and start sending messages!
+
+---
+
+actual owner message: i used gpt to make the readme.md, not the script cuz fuckass wouldnt give me "unfair advantages" so i had to find how to use requests(), and the script is open source, you can copy it, but please for the love of god, do not make fucking stupid roblox loggers
+
+dm @turkishtutle on discord if you find a possible logger
