@@ -30,7 +30,7 @@ api:Send(anotherMessage)
 ---
 
 ### Notes
-- Make sure your executor allows ```request()```
+- Make sure your executor uses ```request()``` (probably all of them do)
 - The library automatically encodes the Lua table to JSON.
 - You can customize `username` and `avatar_url` per message.
 
@@ -43,3 +43,41 @@ This setup allows you to send messages effortlessly without rewriting the HTTP r
 actual owner message: i used gpt to make the readme.md, not the script cuz fuckass wouldnt give me "unfair advantages" so i had to find how to use requests(), and the script is open source, you can copy it, but please for the love of god, do not make fucking stupid roblox loggers
 
 dm @turkishtutle on discord if you find a possible logger
+
+--- 
+
+### Working executors:
+
+Volcano: 🟢
+Synapse X: 💀
+Krnl: 🟢
+Script-Ware: 🟢
+ProtoSmasher: 🟢
+Calamari: 🟢
+Elysian: 🟢
+Delta Executor: 🟢
+Awp: 🟢
+Exestack: 🟢
+Neoblox: 🟢
+Fluxus: 🟢
+JJSploit: 🟢
+WeAreDevs API (client tools): 🟢
+RbxStudio (in-studio executors): 🟢
+BytExecutor2: 🟢
+Rift/Other custom in-studio tools: 🟢
+GRH-Fake-Exploit: 🟢
+RbxStu V4: 🔴
+Wave Executor: 🔴
+Some browser-extension executors: 🔴
+Micro-executors / very-lightweight bots: 🔴
+Old/abandoned executors (varies): 🔴
+Unofficial mobile executors: 🔴
+Enterprise/protected builds (limited): 🔴
+Sentinel (varies by build): 🔴
+Community forks / heavily-patched forks: 🔴
+Script Executor (Micamaster100): 🟢
+AIO (all-in-one) packs: 🟢
+CLI-based exploit wrappers: 🟢
+Custom private executors (varies): 🔴
+
+(chat gpt is fucking stupid, please ignore stupid executors just dm me if your executor works, and what type of executor you use_
