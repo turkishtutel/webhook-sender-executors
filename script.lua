@@ -2,19 +2,19 @@ local Webhook = {}
 Webhook.__index = Webhook
 
 function Webhook.new(url)
-	local self = setmetatable({}, Webhook)
-	self.url = url
-	return self
+    local self = setmetatable({}, Webhook)
+    self.url = url
+    return self
 end
 
-local function Webhook:Send(body)
+function Webhook:Send(body)
     request({
-        Url = Webhook,
-        Method ="POST",
+        Url = self.url,
+        Method = "POST",
         Headers = {
             ["Content-Type"] = "application/json"
         },
-        Body = body
+        Body = game:GetService("HttpService"):JSONEncode(body)
     })
 end
 
