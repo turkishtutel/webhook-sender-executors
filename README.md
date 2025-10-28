@@ -4,6 +4,7 @@ a way of doing all that wonky job on serverscripts with HttpService, but for rob
 usage:
 
 ```
+lua
 local webhook = "https://discord.com/api/webhooks/YOURWEBHOOK HERE"
 local api = loadstring(game:httpget("https://github.com/turkishtutel/webhook-sender-executors/script.lua"))()
 local body = {
