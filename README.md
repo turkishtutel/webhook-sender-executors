@@ -6,7 +6,7 @@ usage:
 ```
 lua
 local webhook = "https://discord.com/api/webhooks/YOURWEBHOOK HERE"
-local api = loadstring(game:httpget("https://github.com/turkishtutel/webhook-sender-executors/script.lua"))()
+local api = loadstring(game:httpget("https://raw.githubusercontent.com/turkishtutel/webhook-sender-executors/refs/heads/main/script.lua"))()
 local body = {
     content : "hi"
 }
