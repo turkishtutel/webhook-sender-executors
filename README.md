@@ -80,4 +80,4 @@ AIO (all-in-one) packs: 🟢
 CLI-based exploit wrappers: 🟢
 Custom private executors (varies): 🔴
 
-(chat gpt is fucking stupid, please ignore stupid executors just dm me if your executor works, and what type of executor you use_
+(chat gpt is fucking stupid, please ignore stupid executors just dm me if your executor works, and what type of executor you use)
